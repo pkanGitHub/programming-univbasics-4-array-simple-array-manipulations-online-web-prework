@@ -25,3 +25,23 @@ end
 def using_concat(array1, array2)
   array1.concat(array2)
 end
+
+def using_insert(array, a_word)
+  array.insert(4, a_word)
+end
+
+def using_uniq(array)
+
+end
+
+def using_flatten(array)
+
+end
+
+def using_delete(array)
+
+end
+
+def using_delete_at(array)
+
+end
