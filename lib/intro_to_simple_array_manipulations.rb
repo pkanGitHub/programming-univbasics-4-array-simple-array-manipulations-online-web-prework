@@ -31,15 +31,15 @@ def using_insert(array, a_word)
 end
 
 def using_uniq(array)
-
+  array.uniq
 end
 
 def using_flatten(array)
-
+  array.flatten
 end
 
-def using_delete(array)
-
+def using_delete(array, another_word)
+  array.delete(another_word)
 end
 
 def using_delete_at(array)
